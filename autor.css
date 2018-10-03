@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+.dentroDaSecao{ 
+    background-image:url("download.jpg");
+    background-position: 100%;
+    width: 50vw;
+    height: 11vh;
+    border: 15px solid black;
+    font-size: 20pt;
+}
+.tioakira{
+    font-size: 10pt;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 50%;
+}
+
+div{
+    width: 40%;
+    
+
+    }

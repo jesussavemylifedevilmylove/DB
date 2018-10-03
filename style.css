@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black ;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+div{
+    
+    width: 100vw;
+    height: 100vh;    
+}
+
+.headerUm{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    border: 10px solid black;
+    
+}
+
+.footerDois{
+    background-color:black;
+    width: 100%;
+    height: 10vh;
+    border: 10px black;
+}
+
+.secaoUm{
+  
+    border: 10px solid black;
+    width: 100%;
+} 
+
+.secaoDois{
+    border: 10px solid black;
+    width: 100%;
+}
+
+.dentroDaSecao{ 
+    background-color: blue;
+    width: 50vw;
+    height: 11vh;
+    border: 15px solid black;
+    font-size: 10pt;
+}
+
+.secaoDois header, footer {
+    width: 100%;
+    height: 10%;
+    border: 10px  solid black;
+}
+
+.secaoDois article{
+    height: 70%;
+    width: 100%;
+    border: 10px  solid black;
+    background-color: orangered;
+}
+    
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    border: 15px solid black;
+    background-image:url("historia1.jpg")
+}
+
+nav a{
+     border: 2px solid black;
+     margin: 5px;
+}
+aside{
+    width: 100%;
+    height: 78%;
+    border: 15px solid black;
+}
+aside > *{
+    width: 100%;
+    height: 100%;
+}
